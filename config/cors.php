@@ -19,7 +19,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['*'],
+    'allowed_origins' => ['https://domotena.vercel.app', 'http://localhost:3000'], // Update with your frontend domain
 
     'allowed_origins_patterns' => [],
 

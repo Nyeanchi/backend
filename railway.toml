@@ -1,6 +1,0 @@
-[build]
-builder = "NIXPACKS"  # Or "DOCKERFILE" to force your Dockerfile
-buildCommand = "docker build -t app ."
-
-[deploy]
-startCommand = "sh start.sh"
